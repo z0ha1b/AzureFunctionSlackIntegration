@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1A940537-21CA-4999-A1BB-9DA6F9EFBE1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{422C6659-44E7-47A7-B112-A140D3AE86AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlackAzureFunc", "src\SlackAzureFunc\SlackAzureFunc.csproj", "{30DB593B-7597-482F-8B0D-27E140D75EAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30DB593B-7597-482F-8B0D-27E140D75EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DB593B-7597-482F-8B0D-27E140D75EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DB593B-7597-482F-8B0D-27E140D75EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DB593B-7597-482F-8B0D-27E140D75EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30DB593B-7597-482F-8B0D-27E140D75EAE} = {1A940537-21CA-4999-A1BB-9DA6F9EFBE1A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93C8C099-E42D-4D2F-B550-36E2D31F5352}
+	EndGlobalSection
+EndGlobal
